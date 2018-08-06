@@ -1,0 +1,33 @@
+body{
+    background-color: brown;
+}
+
+.login-title{
+    position: relative;
+    left: auto;
+    font-size: var(--t2);
+    color: white;
+}
+
+.login{
+    padding: 50px;
+    width: 400px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.field{
+    border-radius: 3px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.button{
+    color: white;
+    height: 40px;
+    background-color: #0078A8;
+    border: none;
+}

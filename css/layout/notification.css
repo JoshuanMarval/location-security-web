@@ -1,0 +1,52 @@
+
+.notification-container{
+    position: absolute;
+    background-color: var(--secondary-color);
+    height: 250px;
+    width: 300px;
+    padding: 0 0 30px 0;
+    margin-top: 58vh;
+    margin-left: 78vw;
+}
+
+.notification-header{
+    color: #fff;
+    padding: 3px ;
+    background-color: var(--primary-color);
+}
+
+.notification-cards-container{
+    height: 100%;
+    background-color: var(--secondary-color);
+    overflow: auto;
+}
+
+.notification-cards-container::-webkit-scrollbar{
+    width: 6px;
+}
+
+.notification-cards-container::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+.notification-header-card{
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    background-color: deepskyblue;
+    min-height: 30px;
+}
+
+.notification-card{
+    padding: 0 0 10px 0;
+    border-radius: 4px;
+    margin: 5px;
+    position: relative;
+    color: black;
+    background-color: whitesmoke;
+    max-width: 280px;
+}
+
+.body-card{
+    padding: 0 8px 8px 8px;
+}
+

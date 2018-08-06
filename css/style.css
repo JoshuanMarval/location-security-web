@@ -1,0 +1,25 @@
+/*Aqui se immportan todos los coponente del proyecto*/
+
+/*CONFIG*/
+@import "config.css";
+
+/*ESTILOS BASE*/
+@import "../css/base/normalize.css";
+@import "../css/base/base.css";
+
+/*LAYOUT*/
+@import "layout/grid.css";
+@import "layout/header.css";
+@import "layout/main-nav.css";
+@import "layout/aside.css";
+@import "layout/menu-aside.css";
+@import "layout/main-maps.css";
+@import "layout/notification.css";
+
+
+/*MODULES*/
+@import "modules/buttons.css";
+@import "modules/cards.css";
+
+/*COMPONENTS*/
+@import "components/login.css";

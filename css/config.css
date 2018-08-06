@@ -1,0 +1,37 @@
+/*Aqui iran las variables*/
+
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root{
+    --main-font: 'Roboto', sans-serif;
+    font-family: var(--main-font);
+
+    /*sizes*/
+    --t1: 1.4em;
+    --t2: 1em;
+    --p: 0.8em;
+
+    --gutter: 1em;
+
+    /*Colors*/
+    --primary-color: maroon;
+    --secondary-color: #666;
+}
+
+body{
+    max-height: 100vh;
+    display: grid;
+    grid-template-areas: "nav nav"
+                            "aside main";
+
+    grid-template-columns: 25% 75%;
+    grid-template-rows:  .1fr 2fr;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+

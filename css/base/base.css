@@ -1,0 +1,18 @@
+
+
+h1{
+    font-size: var(--t1);
+}
+
+h2{
+ font-size: var(--t2);
+}
+
+p{
+    font-size: var(--p);
+}
+
+
+h1,h2,h3{
+    line-height: 1.3;
+}
